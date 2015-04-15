@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.authors     = ["Jimworm"]
   s.email       = 'jimworm@gmail.com'
   s.files       = ["lib/ruckus-spot.rb"]
-  s.homepage    = 'http://github.com/jimworm/ruckus-spot'
+  s.homepage    = 'https://github.com/jimworm/ruckus-spot'
   s.license     = 'MIT'
   
   s.add_dependency 'activeresource', '~> 4.0'
