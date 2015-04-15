@@ -7,7 +7,8 @@ This gem uses Ruby > 2.0, ActiveResource > 4.0 and is for the v1 API only.
 http://www.ruckuswireless.com/products/smart-wireless-services/spot
 
 ## Installation
-Not on Rubygems yet
+1. Command line: `gem install ruckus-spot`
+2. Gemfile: `gem 'ruckus-spot'`
 
 ## Configuration
 ```ruby

@@ -10,6 +10,6 @@ Gem::Specification.new do |s|
   s.homepage    = 'http://github.com/jimworm/ruckus-spot'
   s.license     = 'MIT'
   
-  s.add_dependency 'activeresource'
-  s.add_development_dependency 'rspec'
+  s.add_dependency 'activeresource', '~> 4.0'
+  s.add_development_dependency 'rspec', '~> 3.2'
 end
