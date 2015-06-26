@@ -6,4 +6,8 @@ class RuckusSpot::Location < RuckusSpot::Base
     fail ActiveResource::MissingPrefixParam, 'venue_id prefix_option is missing' unless prefix_options.has_key?(:venue_id)
     "#{prefix(prefix_options)}#{collection_name}/last_known.json#{query_string(query_options)}"
   end
+  
+  def self.by_date(date = Time.now.strftime('%Y-%m-%d'), limit = 50)
+    get(:by_date, date: date, limit: limit)
+  end
 end
